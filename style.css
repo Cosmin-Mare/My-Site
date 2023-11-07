@@ -1,0 +1,141 @@
+body {
+  background-color: #883d1a;
+  width: 100%;
+  margin: 0px;
+}
+
+.top-left {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.top-right {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  z-index: -1;
+}
+h1 {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 58pt;
+  color: white;
+  font-style: italic;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+h2 {
+  font-family: "Cardo", serif;
+  font-style: italic;
+  font-size: 46pt;
+  color: white;
+  font-weight: 300;
+  margin-top: 0px;
+}
+.centered-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centered-text {
+  position: absolute;
+  top: 220px;
+  left: 145px;
+}
+.top-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.shape7 {
+  position: absolute;
+  top: 85vh;
+  left: -140px;
+  z-index: -1;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.shape5 {
+  position: absolute;
+  top: 100vh;
+  right: 0px;
+  z-index: -1;
+}
+
+.profile-picture {
+  width: 200px;
+  height: 250px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+p {
+  font-family: "Cardo", serif;
+  color: white;
+  font-style: normal;
+  font-size: 24pt;
+}
+
+.about-me {
+  font-size: 30pt;
+  text-align: center;
+}
+
+.middle-container {
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shape6 {
+  position: absolute;
+  top: 190vh;
+  left: -120px;
+  rotate: 70deg;
+  z-index: -1;
+}
+
+.bottom-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.laptop {
+  width: 600px;
+  height: 448px;
+  margin-bottom: 100px;
+}
+
+.bottom-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 90vw;
+}
+.skills {
+  margin-right: 300px;
+}
+.skills-heading {
+  margin-bottom: 60px;
+}
+.shape3 {
+  position: absolute;
+  top: 320vh;
+  left: 0px;
+}
+.shape4 {
+  position: absolute;
+  top: 316.8vh;
+  right: 0px;
+}
