@@ -106,6 +106,7 @@ p {
 }
 
 .bottom-section {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -115,6 +116,7 @@ p {
   width: 600px;
   height: 448px;
   margin-bottom: 100px;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.5);
 }
 
 .bottom-grid {
@@ -131,11 +133,13 @@ p {
 }
 .shape3 {
   position: absolute;
-  top: 320vh;
+  bottom: 0px;
   left: 0px;
+  z-index: -1;
 }
 .shape4 {
   position: absolute;
-  top: 316.8vh;
+  bottom: 0px;
   right: 0px;
+  z-index: -1;
 }
