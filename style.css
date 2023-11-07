@@ -3,9 +3,6 @@ body {
   width: 100%;
   margin: 0px;
 }
-.rhombus {
-  margin-top: 20px;
-}
 
 .top-left {
   position: absolute;
@@ -37,6 +34,7 @@ h2 {
   margin-top: 0px;
 }
 .centered-container {
+  margin-top: 20px;
   position: relative;
   display: flex;
   justify-content: center;
